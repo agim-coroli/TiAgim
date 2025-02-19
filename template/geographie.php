@@ -18,7 +18,7 @@
         <div class="section geo_section">
             <h1>Capitale multiple et centre diplomatique mondial</h1>
             <div>
-            <img src="img/geographie.png" alt="Carte du l'irlande">
+                <img src="img/geographie.png" alt="Carte du l'irlande">
 
             </div>
             <p>La ville est située à peu près au milieu de la côte est de l'Irlande, le long d'une baie, à l'embouchure de la Liffey et au centre de la région du Grand Dublin. Au sud de la ville s'étendent les montagnes de Wicklow.</p>
