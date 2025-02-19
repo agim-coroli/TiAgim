@@ -189,3 +189,6 @@ input[type="button"]{
     display: flex;
     flex-direction: column;
 }
+.error_section>p:nth-of-type(1){
+    font-weight: bold;
+}
