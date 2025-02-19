@@ -55,6 +55,9 @@ body{
 }
 
 /* section */
+main{
+    width: 100%;
+}
 .section{
     width: 65.4%;
     margin: auto;
@@ -136,4 +139,53 @@ body{
 .gal_section>div>div>p{
     text-align: center;
     margin: 1%;
+}
+.cont_section>p{
+    font-weight: bold;
+    text-align: center;
+}
+
+.cont_section>form>div{
+    display: flex;
+    justify-content: flex-end;
+}
+.cont_section>form>div>input{
+    width: 15vw;
+    height: 2vh;
+}
+.cont_section>form>div>label{
+    line-height: 2vh;
+}
+.btn{
+    margin-top: 10%;
+    translate: -80px;
+}
+input[type="button"]{
+    width: 50% !important;
+    border-radius: 15px;
+    height: 3vh !important;
+}
+.big_input>input{
+    height: 6vh !important;
+}
+
+
+.list_container{
+    width: 100%;
+}
+.list_container a{
+    text-decoration: none;
+    color: red;
+}
+.link_section>p{
+    font-weight: bold;
+}
+
+.link_section>div>ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
