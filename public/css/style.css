@@ -117,3 +117,23 @@ body{
 .his_section>ul,.cult_section>ul{
     width: 100%;
 }
+
+
+.gal_section>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gal_section>div>div>img{
+    display: block;
+    aspect-ratio: 1/1;
+    width: 100%;
+    margin-top: 8%;
+    border: 3px solid black;
+    padding: 1%;
+
+}
+.gal_section>div>div>p{
+    text-align: center;
+    margin: 1%;
+}
