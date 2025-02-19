@@ -2,28 +2,28 @@
 if (isset($_GET['p'])) {
     switch ($_GET['p']) {
         case 'geo':
-            include("../template/geographie");
             $tilte = "geo";
+            include("../template/geographie.php");
             break;
         case 'hist':
-            include("../template/histoire.php.php");
             $tilte = "hist";
+            include("../template/histoire.php");
             break;
         case 'cult':
-            include("../template/culture.php");
             $tilte = "cult";
+            include("../template/culture.php");
             break;
         case 'gal':
-            include("../template/galerie.php");
             $tilte = "gal";
+            include("../template/galerie.php");
             break;
         case 'form':
-            include("../template/contact.php");
             $tilte = "form";
+            include("../template/contact.php");
             break;
         case 'link':
-            include("../template/liens.php");
             $tilte = "link";
+            include("../template/liens.php");
             break;
         default:
             $tilte = "404";
