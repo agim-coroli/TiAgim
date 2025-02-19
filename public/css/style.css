@@ -1,5 +1,5 @@
 body{
-    margin:0 0 1% 0;
+    margin:0 0 5% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +7,11 @@ body{
 }
 
 /* navbar  */
+header{
+    position: sticky;
+    top: 0;
+    width: 67.5%;
+}
 .menu_list{
     display: flex;
     justify-content: center;
@@ -40,6 +45,10 @@ body{
     color: white;
 
 }
+
+.banierre_img>img{
+    width: 67vw;
+}
 .banierre_text{
     position: absolute;
     top: 20%;
@@ -54,7 +63,7 @@ body{
     font-size: 3rem;
 }
 
-/* section */
+/* sections */
 main{
     width: 100%;
 }
@@ -84,6 +93,8 @@ main{
     font-size: 1.5rem;
     font-style: italic;
 }
+
+/* section accueil */
 .accueil_section>p:nth-of-type(2){
     width: 40%;
 }
@@ -109,6 +120,7 @@ main{
 
 }
 
+/* section histoire */
 .his_section>,.cult_section>p{
     width: 100%;
     text-align: left;
@@ -121,7 +133,7 @@ main{
     width: 100%;
 }
 
-
+/* section galerie */
 .gal_section>div{
     display: flex;
     flex-wrap: wrap;
@@ -134,12 +146,36 @@ main{
     margin-top: 8%;
     border: 3px solid black;
     padding: 1%;
-
+    cursor: pointer;
 }
 .gal_section>div>div>p{
     text-align: center;
     margin: 1%;
 }
+/* bonus galerie */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.overlay.active {
+    display: flex;
+}
+
+.overlay img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* section contact */
 .cont_section>p{
     font-weight: bold;
     text-align: center;
@@ -169,7 +205,7 @@ input[type="button"]{
     height: 6vh !important;
 }
 
-
+/* section liens */
 .list_container{
     width: 100%;
 }
@@ -191,4 +227,12 @@ input[type="button"]{
 }
 .error_section>p:nth-of-type(1){
     font-weight: bold;
+}
+
+/* arrow */
+#upArrow{
+    font-size: 3rem;
+    margin-left: 6%;
+    margin-top: -7%;
+    cursor: pointer;
 }

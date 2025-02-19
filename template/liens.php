@@ -9,15 +9,16 @@
 </head>
 
 <body>
+    <!-- inclusion de la banniere et du menu -->
+    <?php include("inc/banniere.php"); ?>
     <header>
-        <?php include("inc/banniere.php"); ?>
         <?php include("inc/menu.php"); ?>
     </header>
     <main>
         <div class="section link_section">
             <h1>Quelques liens vers nos partenaires.</h1>
             <div>
-                <img src="img/liens.jpg" alt="">
+                <img src="img/liens.jpg" alt="Image de globe de recherche">
             </div>
             <p>D'autres capitales se sont associées à notre site.</p>
             <div class="list_container">

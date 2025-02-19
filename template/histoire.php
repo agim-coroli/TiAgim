@@ -9,8 +9,9 @@
 </head>
 
 <body>
+    <!-- inclusion de la banniere et du menu -->
+    <?php include("inc/banniere.php"); ?>
     <header>
-        <?php include("inc/banniere.php"); ?>
         <?php include("inc/menu.php"); ?>
     </header>
     <main>
@@ -64,10 +65,9 @@
 
             <p> Ainsi, Dublin, qui avait un aspect plutôt provincial jusque dans les années 1990, a beaucoup changé, du fait d'une frénésie immobilière et urbanistique.</p>
         </div>
+        <div onclick="goUp()" id="upArrow">🔝</div>
     </main>
-    <footer>
-
-    </footer>
+    <script src="./js/lightbox.js"></script>
 </body>
 
 </html>

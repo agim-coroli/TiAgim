@@ -9,8 +9,9 @@
 </head>
 
 <body>
+    <!-- inclusion de la banniere et du menu -->
+    <?php include("inc/banniere.php"); ?>
     <header>
-        <?php include("inc/banniere.php"); ?>
         <?php include("inc/menu.php"); ?>
     </header>
     <main>
