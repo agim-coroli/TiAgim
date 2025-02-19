@@ -1,6 +1,8 @@
 body{
-    margin: 0;
+    margin:0 0 1% 0;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -10,7 +12,7 @@ ul{
     justify-content: center;
     text-align: center;
     list-style-type: none;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     margin: 0;
     height: 5vh;
@@ -49,4 +51,41 @@ li a:hover{
     border-radius: 25px;
     padding: 1%;
     font-size: 3rem;
+}
+
+/* accueil section */
+.section{
+    width: 65.4%;
+    margin: auto;
+    background-color: rgb(235, 235, 235);
+    margin-top: .8%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section>h1{
+    margin: 0;
+    background-color: red;
+    width: 103.2%;
+    border-radius: 5px;
+    height: 5vh;
+    margin-top: -2.5%;
+    text-align: center;
+    line-height: 5vh;
+    color: white;
+}
+.accueil_section>p:nth-of-type(2){
+    width: 40%;
+}
+.accueil_section>p:nth-of-type(3){
+    text-align: center;
+    color: red;
+    width: 50%;
+}
+.section>img{
+    margin-top: 1%;
 }
