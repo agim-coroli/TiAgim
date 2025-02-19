@@ -14,7 +14,10 @@
         <?php include("inc/menu.php"); ?>
     </header>
     <main>
-
+    <div class="section">
+            <h1></h1>
+            <img src="img/" alt="">
+        </div>
     </main>
     <footer>
 

@@ -7,7 +7,7 @@ body{
 }
 
 /* navbar  */
-ul{
+.menu_list{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -20,22 +20,23 @@ ul{
     padding: 0;
     background-color: rgb(235, 235, 235);
 }
-ul li{
+.menu_list li{
     transition: linear .5s;
     width: 12%;
 }
-ul li:hover{
+.menu_list li:hover{
     cursor: pointer;
-    background-color: red;
+    background-color: rgb(155, 0, 0);
+
 
 }
-ul a {
+.menu_list a {
     text-decoration: none;
     color: black;
     font-size: 1.3rem;
 
 }
-li a:hover{
+.menu_list>li a:hover{
     color: white;
 
 }
@@ -53,7 +54,7 @@ li a:hover{
     font-size: 3rem;
 }
 
-/* accueil section */
+/* section */
 .section{
     width: 65.4%;
     margin: auto;
@@ -69,7 +70,7 @@ li a:hover{
 }
 .section>h1{
     margin: 0;
-    background-color: red;
+    background-color: rgb(155, 0, 0);
     width: 103.2%;
     border-radius: 5px;
     height: 5vh;
@@ -77,6 +78,8 @@ li a:hover{
     text-align: center;
     line-height: 5vh;
     color: white;
+    font-size: 1.5rem;
+    font-style: italic;
 }
 .accueil_section>p:nth-of-type(2){
     width: 40%;
@@ -86,6 +89,31 @@ li a:hover{
     color: red;
     width: 50%;
 }
-.section>img{
+
+.section>div{
+    display: flex;
+    justify-content: center;
+}
+
+.section>div>img{
     margin-top: 1%;
+    aspect-ratio: 2/1;
+    width: 80%;
+}
+.accueil_section>div>img{
+    aspect-ratio: 1/1;
+    width: 60%;
+
+}
+
+.his_section>,.cult_section>p{
+    width: 100%;
+    text-align: left;
+}
+.his_section>h2,.cult_section>h2{
+    text-align: left;
+    width: 100%;
+}
+.his_section>ul,.cult_section>ul{
+    width: 100%;
 }

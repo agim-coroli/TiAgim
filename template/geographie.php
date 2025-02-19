@@ -16,7 +16,10 @@
     <main>
         <div class="section geo_section">
             <h1>Capitale multiple et centre diplomatique mondial</h1>
+            <div>
             <img src="img/geographie.png" alt="Carte du l'irlande">
+
+            </div>
             <p>La ville est située à peu près au milieu de la côte est de l'Irlande, le long d'une baie, à l'embouchure de la Liffey et au centre de la région du Grand Dublin. Au sud de la ville s'étendent les montagnes de Wicklow.</p>
             <p>Son climat est typiquement océanique. On peut le comparer au climat de Vancouver. Les hivers sont doux (environ 5 °C) et les étés frais (environ 15 °C). Les précipitations, d'un total de 733 mm, sont bien réparties tout au long de l'année.</p>
             <p>Les loyers réclamés aux locataires sont très élevés. En 2019, ils se situent entre 1 300 et 1 800 euros en moyenne pour un logement avec une chambre. Les prix ont augmenté en moyenne de 70 % entre 2012 et 2020, faisant de Dublin la capitale européenne la plus onéreuse pour le montant des loyers.</p>

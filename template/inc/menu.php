@@ -1,5 +1,5 @@
 <nav>
-    <ul>
+    <ul class="menu_list">
         <li><a href="./">Accueil</a></li>
         <li><a href="?p=geo">Géographie</a></li>
         <li><a href="?p=hist">Histoire</a></li>
