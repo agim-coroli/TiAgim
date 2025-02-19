@@ -7,6 +7,15 @@
     <title><?= $tilte ?></title>
 </head>
 <body>
-    
+<header>
+        <?php include ("inc/banniere.php"); ?>
+        <?php include ("inc/menu.php"); ?>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

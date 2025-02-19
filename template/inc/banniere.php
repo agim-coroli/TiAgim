@@ -1,1 +1,1 @@
-<img src="public\img\banniere.jpg" alt="">
+<img src="img\banniere.jpg" alt="image d'un batiment">
